@@ -17,6 +17,9 @@
         text-align: center;
 		vertical-align: top;
       }
+	  blockquote {
+	    margin-left: 8%;
+      }		
 	  .container {	  
 	    text-align: center;
 		display: block;
@@ -31,16 +34,7 @@
 		font-size: 1.2rem; 
 		text-shadow: 2px 2px 4px #0F0F0F;
       }
-	  blockquote {
-	    margin-left: 8%;
-      }		
-	  #menulink{
-	    font-weight: bold;
-		color: black !important; }
-	  #menulink2{
-	    font-weight: bold;
-		color: black !important; }
-	  #menulink3{
+	  .menulink{
 	    font-weight: bold;
 		color: black !important; }
       #ulnorm {
