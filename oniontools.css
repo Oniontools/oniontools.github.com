@@ -43,17 +43,17 @@
         font-weight: bold;
         font-size: 18px;
 	  }	  
-	  #link { color: red; }
-	  .site-footer {
-		background: #FFE300; 
+      #link { color: red; }
+      .site-footer {
+        background: #FFE300; 
         border-top: 2px solid black;
-        left: 0;
-        right: 0;
-        bottom: 0;		
+        left: 0px;
+        right: 0px;
+        bottom: 0px;		
       }
       #footer-content {
         background: #FFE300;
-        left: 0;
-        right: 0;
-        bottom: 0;		
+        left: 0px;
+        right: 0px;
+        bottom: 0px;		
       }
