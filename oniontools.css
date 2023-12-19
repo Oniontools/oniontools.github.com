@@ -2,6 +2,7 @@
         margin-top: 0px; 
         margin-bottom: 0px; 
         margin-left: 0px; 
+        margin-right: 0px; 
 		background-color: #F6F8FA; 
 		background: url(bg2.png); 
 		background-position: top left;
@@ -43,3 +44,16 @@
         font-size: 18px;
 	  }	  
 	  #link { color: red; }
+	  .site-footer {
+		background: #FFE300; 
+        border-top: 2px solid black;
+        left: 0;
+        right: 0;
+        bottom: 0;		
+      }
+      #footer-content {
+        background: #FFE300;
+        left: 0;
+        right: 0;
+        bottom: 0;		
+      }
