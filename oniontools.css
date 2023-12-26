@@ -45,7 +45,7 @@
         font-weight: bold;
         font-size: 18px;
 	  }	  
-      #link { 
+      .redlink { 
 	    color: red;
 	  }
       .site-footer {
