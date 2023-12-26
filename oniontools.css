@@ -1,4 +1,4 @@
-      body {
+       body {
         margin-top: 0px; 
         margin-bottom: 0px; 
         margin-left: 0px; 
@@ -37,13 +37,17 @@
       }
 	  .menulink{
 	    font-weight: bold;
-		color: black !important; }
+		color: black !important; 
+		text-decoration: none;
+	  }
       #ulnorm {
         color: #000;
         font-weight: bold;
         font-size: 18px;
 	  }	  
-      #link { color: red; }
+      #link { 
+	    color: red;
+	  }
       .site-footer {
         background: #FFE300; 
         border-top: 2px solid black;
@@ -57,3 +61,17 @@
         right: 0px;
         bottom: 0px;		
       }
+    @keyframes bgrandom {
+    0% { background: linear-gradient(90deg, rgba(255,255,255,0.98) 50%, rgba(255,255,255,0.96) 0%); }
+    50% { background: linear-gradient(90deg, rgba(255,255,255,0.98) 50%, rgba(255,255,255,0.96) 0%); }
+
+    55% { background: linear-gradient(90deg,  rgba(255,255,255,0.96) 50%, rgba(255,255,255,0.98) 0%); }
+    80% { background: linear-gradient(90deg, rgba(255,255,255,0.96)  50%, rgba(255,255,255,0.98) 0%); }
+
+    85% { background: linear-gradient(90deg, rgba(255,255,255,0.96) 50%, rgba(255,255,255,0.94) 0%); }
+    100% { background: linear-gradient(90deg, rgba(255,255,255,0.96) 50%, rgba(255,255,255,0.94) 0%); }
+    }
+	#element{  animation: 1.2s bgrandom infinite; }
+	
+	
+	
