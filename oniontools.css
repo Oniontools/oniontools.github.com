@@ -17,7 +17,10 @@
       }
 	  blockquote {
 	    margin-left: 8%;
-      }		
+      }	
+	  pre {	  
+		font-size: 15px;
+      }
 	  .container {	  
 	    text-align: center;
 		display: block;
